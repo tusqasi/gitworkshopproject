@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <title> Other title</title>
+    </head>
+    <body>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            ul {
+                display: flex;
+               flex-direction: row;
+                list-style-type: none;
+                margin: 0;
+                padding: 2.5vh;
+                width: fit-content;
+            }
+            a{
+                text-decoration: none;
+                color: black;
+                font-family: monospace;
+                font-size: 1rem;
+               }
+            li{
+                display: block;
+                padding: 1em;
+                margin-inline-start: 3em;
+                transition: all;
+                transition-property: all ;
+                transition-duration: 50ms;
+            }
+            li:hover{
+                background-color: rgb(109, 210, 176);
+            }
+        </style>
+        <nav style="background-color: aquamarine;display: flex;align-items: center;justify-content: space-between;">
+
+            <ul>
+                <a href="default.asp"><li> Home</li></a>
+                <a href="news.asp"><li> News</li></a>
+                <a href="contact.asp"><li> Contact</li></a>
+                <a href="about.asp"><li> About</li></a>
+            </ul>
+            <div>#</div>
+        </nav>
+        <h1 style="font-family: monospace;display: flex;justify-content: center;align-items: center;height: 90vh;">Hello there</h1>
+    </body>
+</html>
